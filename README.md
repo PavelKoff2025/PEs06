@@ -53,7 +53,7 @@
     *   Получите токен бота у [BotFather](https://t.me/BotFather) и запишите его в `.env`:
         ```ini
         BOT_TOKEN=your_bot_token_here
-        WEATHER_API_KEY=your_weather_api_key_here
+        OPENAI_API_KEY=your_OPENAI_API_KEY_here
         ```
 
 5.  **Запустите бота:**
@@ -69,11 +69,8 @@ telegram-bot-assistant/
 ├── handlers/ # Директория с обработчиками сообщений
 │ ├── init.py
 │ ├── start.py
-│ ├── weather.py
-│ └── currency.py
-├── services/ # Логика работы с внешними API (погода, валюта)
+├── services/ # Логика работы с внешними API
 │ ├── init.py
-│ └── weather_service.py
 ├── .env.example # Пример файла с переменными окружения
 ├── requirements.txt # Список зависимостей
 ├── README.md # Документация проекта (этот файл)
